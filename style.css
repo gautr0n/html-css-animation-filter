@@ -16,10 +16,11 @@
     width: 100px;
     height: 100px;
     background: red;
+    transition: all linear 1s
 }
 
-.ex-2-square{
-    
+.ex-2-square:active{
+    width: 100%;
 }
 
 /*es3*/
