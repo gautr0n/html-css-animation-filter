@@ -120,10 +120,25 @@
 /*es11*/
 .ex-11-icon {
     font-size: 60px;
+}
+
+.ex-11-icon:hover{
     animation-name: rotate-right;
-    animation-duration:  1s;
-    animation-iteration-count: infinite;
+    animation-duration:  2s;
+    animation-iteration-count: reverse;
     animation-timing-function: linear;
+}
+
+@keyframes rotate-right{
+    0%{
+        transform:rotate(0deg);
+    }
+    80%{
+        transform:rotate(300deg);
+    }
+    100%{
+        transform: rotate(0%);
+    }
 }
 
 /*es12*/
